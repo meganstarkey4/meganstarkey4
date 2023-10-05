@@ -1,0 +1,83 @@
+body {
+    margin: 5;
+    background-image: url("USLvsParkCItyFinalEdits-32.jpg");
+    background-color:#cccccc ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+  }
+
+  .scoreboard {
+    position: absolute;
+    top: 20px;
+    left: 50px
+  }
+  .box1{
+    width: 5em;
+    height: 5em;
+    margin: 5em auto;
+    position: absolute;
+  }
+  .box1 img {
+max-width: 100%;
+  }
+  .box2{
+    width: 5em;
+    height: 5em;
+    margin: 5em auto;
+    background-color: gold;
+    border: .1em solid black;
+    position: absolute;
+    left: 5em;
+  }
+  p {
+    font-size: 27px;
+    text-align: center;
+    line-height: 1px;
+  }
+  .box3{
+    width: 5em;
+    height: 5em;
+    margin: 5em auto;
+    position: absolute;
+    left: 10em
+  }
+  .box3 img {
+max-width: 100%;
+  }
+  .box4 {
+    width: 5em;
+    height: 5em;
+    margin: 5em auto;
+    background-color: lightblue;
+    border: .1em solid black;
+    position: absolute;
+    left: 15em;
+  }
+
+.espn {
+    position: absolute;
+    top: 10em;
+    right: 10em;
+    border: .2em gold;
+}
+.date {
+    background-color: black;
+    color: white;
+    border: .1em solid white;
+    position: absolute;
+    top: 1em;
+    right: 10em;
+    width: 30em;
+}
+.espn img {
+    max-width: 40em;
+    max-height: 8em;
+    border: .2em gold;
+      }
