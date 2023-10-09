@@ -72,12 +72,11 @@ max-width: 100%;
     color: white;
     border: .1em solid white;
     position: absolute;
-    top: 1em;
-    right: 10em;
+    font-size: 8px;
+    top:auto;
     width: 30em;
 }
 .espn img {
-    max-width: 40em;
-    max-height: 8em;
-    border: .2em gold;
-      }
+  max-width: 30em;
+  max-height: 8em;
+    }
