@@ -1,0 +1,131 @@
+@media screen and (min-width: 500px){
+  body {
+      background-color: #fff;
+      color: #333;
+      margin: 0;
+      font: 1.2em / 1.2 Arial, Helvetica, sans-serif
+  
+    }
+  
+    img {
+        max-width: 100%;
+        display: block;
+        float: left;
+        margin: 5px;
+    }
+    
+    .logo {
+      font-size: 200%;
+      padding: 50px 20px;
+      margin: 0 auto;
+      max-width: 980px;
+    }
+    
+    .grid {
+      margin: 0 auto;
+      padding: 0 20px;
+      max-width: 980px;
+      display: grid;
+      grid-template-columns: 22% 22% auto;
+      grid-template-rows: 22% auto 22%;
+    }
+    
+    nav {
+      background-color: #000;
+      padding: .5em;
+      
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: .5em 1em;
+    }
+    
+    .photos {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display:grid;
+      grid-template-columns: 55% 55%;
+      grid-template-rows: 30% 30% 55% 55% 55%;
+  
+    }
+  
+    .feature {
+        width: 200px;
+    }
+  }
+
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif
+
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+      float: left;
+      margin: 5px;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  .grid, nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    background-color: #000;
+    padding: .5em;
+    
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+      width: 200px;
+  }
+}
