@@ -2,15 +2,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: pink;
 }
+html {
+    font-family:fantasy;
+    font-size: 30px;
+  }
 nav{
-    height: 50vh;
+    height: 100vh;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height:20px;
-    background-color: blueviolet;
+    height: 50px;
+    background-color: magenta;
 }
 nav a{
     width:10vw;
@@ -20,17 +24,53 @@ nav a{
 }
 
 
-img{
-    width:30vw;
-    height: 30vh;
+#dog-img{
+    width:25vw;
+    height: 50vh;
 }
 
-#red-ball{
-    background-color: crimson;
-    width: 20px;
-    height:20px;
-    border-radius: 50%;
-    position: absolute;
-    left:5vw;
-    top:0;
+
+#dog{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    animation-duration: 3s;
+   animation-name: dogmove;
+   animation-iteration-count: 2;
+   animation-direction: alternate;
+
+}
+
+
+@keyframes dogmove{
+    from{ margin-left: 100%;
+        width: 300%}
+    to{
+        margin-left: 0%;
+        width:100%;
+    }
+
+
+}
+h1{
+    color: blueviolet;
+    font-size: 45px;
+    transition-property: background-color;
+    transition-duration: .5s;
+    transition-delay: 0s;
+}
+h1:hover{
+    color: black;
+}
+
+#sunflower{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#flowerpic{
+    min-height: 100%;
 }
