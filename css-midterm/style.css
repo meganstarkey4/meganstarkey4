@@ -1,0 +1,57 @@
+@media screen and (min-width: 500px){
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif
+
+  }
+  .box1 {
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius: 5pt;
+    border-style: double;
+  }
+  .box2, .box4, .box6, .box8, .box10{
+    background-color: lightblue;
+    border-color: black;
+    border-radius: 5pt;
+    border-style: double;
+  }
+  .box3, .box5, .box7, .box9{
+    background-color: lightpink;
+    border-color: black;
+    border-radius: 5pt;
+    border-style: double;
+  }
+}
+  @media screen and (max-width: 500px) {
+    body {
+        background-color: #fff;
+        color: #333;
+        margin: 5em;
+        padding: 2em;
+        font: 1.2em / 1.2 Arial, Helvetica, sans-serif
+      }
+
+      .box1 {
+        background-color: whitesmoke;
+        border-color: black;
+        border-radius: 5pt;
+        border-style: double;
+      }
+
+      .box2, .box4, .box6, .box8, .box10{
+        background-color: lightblue;
+        border-color: black;
+        border-radius: 5pt;
+        border-style: double;
+      }
+
+      .box3, .box5, .box7, .box9{
+        background-color: lightpink;
+        border-color: black;
+        border-radius: 5pt;
+        border-style: double;
+      }
+    }
