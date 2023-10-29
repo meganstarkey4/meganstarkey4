@@ -24,6 +24,14 @@ body {
     border-radius: 5pt;
     border-style: double;
   }
+  .box2, .box4, .box6, .box8, .box10, .box3, .box5, .box7, .box9 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  }
 }
 @media screen and (max-width: 500px) {
     body {
@@ -40,7 +48,11 @@ body {
         border-radius: 5pt;
         border-style: double;
       }
-
+      .box2, .box4, .box6, .box8, .box10, .box3, .box5, .box7, .box9 {
+        display:grid;
+        grid-template-columns: 200px;
+        grid-template-rows: 200px;
+      }
       .box2, .box4, .box6, .box8, .box10{
         background-color: lightblue;
         border-color: black;
@@ -54,4 +66,5 @@ body {
         border-radius: 5pt;
         border-style: double;
       }
+      
     }
