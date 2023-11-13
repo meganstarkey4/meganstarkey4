@@ -5,12 +5,12 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ['1230bar.JPG','blackdress.JPG','pinkdress.jpg','redjeans.JPG'];
+const images = ['1230bar.JPG','blackdress.JPG','pinkDress.JPG','redjeans.JPG'];
 /* Declaring the alternative text for each image file */
 const alts = {
     '1230.JPG' : 'Justin Timberlakes 12/30 Bar',
     'blackdress.JPG': 'lex and meg outside of Miranda Lamberts',
-    'pinkdress.JPG': 'pink dresses for the big 21',
+    'pinkDress.JPG': 'pink dresses for the big 21',
     'redjeans.JPG': '2 girls in Nashville'
 }
 /* Looping through images */
