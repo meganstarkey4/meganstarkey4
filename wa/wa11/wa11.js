@@ -10,7 +10,7 @@ const images = ['1230bar.JPG','blackdress.JPG','pinkkDress.JPG','redjeans.JPG'];
 const alts = {
     '1230.JPG' : 'Justin Timberlakes 12/30 Bar',
     'blackdress.JPG': 'lex and meg outside of Miranda Lamberts',
-    'pinkkDress.JPG': 'pink dresses for the big 21',
+    'pinkkDress.JPG': 'birthday girl',
     'redjeans.JPG': '2 girls in Nashville'
 }
 /* Looping through images */
@@ -30,6 +30,10 @@ btn.addEventListener('click',()=> {
    if(btnClass === 'dark'){
     btn.setAttribute('class','light');
     btn.textContent='Lighten';
+    overlay.style.backgroundColor = 'rbga(10,10,10,10)';
+   } else {
+    btn.setAttribute('class','dark');
+    btn.textContent='Darken';
     overlay.style.backgroundColor = 'rbga(0,0,0,0)';
    }
 }
