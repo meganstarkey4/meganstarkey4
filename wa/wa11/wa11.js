@@ -5,7 +5,7 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ['1230bar.JPG','blackdress.JPG','pinkdress.JPG','redjeans.JPG'];
+const images = ['1230bar.JPG','blackdress.JPG','pinkdress.jpg','redjeans.JPG'];
 /* Declaring the alternative text for each image file */
 const alts = {
     '1230.JPG' : 'Justin Timberlakes 12/30 Bar',
