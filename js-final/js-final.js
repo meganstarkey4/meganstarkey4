@@ -12,9 +12,9 @@
   )
 
   const answersMap = {
-    q1: "Megan",
-    q2: "Grasshopper",
-    q3: "Doodles",
-    q4: "Dropping Waffles",
-    q5: "I'm allergic to chicken"
+    q1: "megan",
+    q2: "grasshopper",
+    q3: "doodle",
+    q4: "waffles",
+    q5: "allergy"
   }
