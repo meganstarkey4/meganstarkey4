@@ -4,7 +4,6 @@ html, body {
   }
   
   html {
-    overflow-y: scroll; 
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 100%;
     
@@ -12,7 +11,6 @@ html, body {
   
   body {
     position: relative;
-    overflow: hidden;
     height: inherit;
   }
   
