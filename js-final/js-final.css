@@ -12,10 +12,11 @@ html, body {
   body {
     position: relative;
     height: inherit;
+    font-size: 5rem;
   }
   
   h1 {
-    font-size: 6rem;
+    font-size: 10rem;
     letter-spacing: -1px;
     position: absolute;
     margin: 0;
