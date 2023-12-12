@@ -24,3 +24,7 @@ html, body {
     color: black;
     text-shadow: 0 0 4px pink;
   }
+
+.submitBtn{
+  font-size: 10rem;
+}
