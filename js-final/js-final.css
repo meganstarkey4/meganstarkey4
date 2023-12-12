@@ -25,6 +25,13 @@ html, body {
     text-shadow: 0 0 4px pink;
   }
 
-.submitBtn{
-  font-size: 10rem;
-}
+  .submitBtn {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
