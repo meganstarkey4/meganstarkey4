@@ -15,7 +15,6 @@ html, body {
     position: relative;
     height: inherit;
     font-size: 30px;
-    box-sizing: 30px;
   }
   
   h1 {
